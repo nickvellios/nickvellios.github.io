@@ -1,0 +1,74 @@
+{
+  "report": {
+    "report_title": "Bill",
+    "report_subtitle": "Paid In Full",
+    "report_name": "bid_bill",
+    "date_run": "2019/02/18",
+    "printed_by": "John Doe",
+    "customer": "John Smith",
+    "amount_decimal": 800.00,
+    "adjusted_amount_decimal": 870.00,
+    "amount_paid": 870.00,
+    "number": "A20190218043401",
+    "date": "2019/02/18",
+    "date_due": "2019/03/20",
+    "status": "POSTED",
+    "**** DATA-COMMENT": {
+        "general": [
+            "The Bill is the customer's copy of a posted accounts receivable."
+        ],
+        "options": [
+            ""
+        ],
+        "level1": {
+            "name": "Lines",
+            "description": "A list of invoice lines.",
+            "required": true
+        }
+    },
+    "data": [
+      {
+        "account_number": "33-85",
+        "trans_number": 1,
+        "item": "Item Description",
+        "line_desc": "Goods sold",
+        "series": "1",
+        "location": "1",
+        "set": "1",
+        "FF1": null,
+        "FF2": null,
+        "FF3": null,
+        "FF4": null,
+        "ins" : null,
+        "1099" : null,
+        "asset" : null,
+        "amount": 200.00,
+        "markup_type": "PCT",
+        "markup_amount_decimal": 0.00,
+        "markup_rate": 10.0,
+        "adjusted_amount_decimal": 220.00
+      },
+      {
+        "account_number": "33-85",
+        "trans_number": 1,
+        "item": "Another Item Description",
+        "line_desc": "Labor sold",
+        "series": "1",
+        "location": "1",
+        "set": "1",
+        "FF1": null,
+        "FF2": null,
+        "FF3": null,
+        "FF4": null,
+        "ins" : null,
+        "1099" : null,
+        "asset" : null,
+        "amount": 500.00,
+        "markup_type": "AMT",
+        "markup_amount_decimal": 150.00,
+        "markup_rate": 0.0,
+        "adjusted_amount_decimal": 650.00
+      }
+    ]
+  }
+}
